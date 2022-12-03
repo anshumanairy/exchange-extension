@@ -1,0 +1,131 @@
+{
+  "themeData": {
+    "colors": {},
+    "fontData": {},
+    "selectStyling": {},
+    "modalStyling": {}
+  },
+  "exchangeInformation": {
+    "leftSection": [
+      {
+        "key": 0,
+        "title": "Exchange Tip",
+        "information": [
+          "If the product you wish to exchange has a good physical appearance and in proper working condition, it would qualify for a higher exchange amount.",
+          "Make sure to enter the details as accurately as possible to avoid any possibility of mismatch in the exchange quote, at the time of delivery."
+        ]
+      },
+      {
+        "key": 1,
+        "title": "Exchange Tip 2",
+        "information": [
+          "If the product you wish to exchange has a good physical appearance and in proper working condition, it would qualify for a higher exchange amount.",
+          "Make sure to enter the details as accurately as possible to avoid any possibility of mismatch in the exchange quote, at the time of delivery."
+        ]
+      }
+    ],
+    "rightSection": {
+      "title": "Exchange Your Product",
+      "subtitle": "Tell us about your product",
+      "questionsData": [
+        {
+          "key": "category",
+          "title": "Category",
+          "disabled": true,
+          "value": "Mobile Phones"
+        },
+        {
+          "key": "brand",
+          "title": "Brand",
+          "placeholder": "Select Brand",
+          "type": "select",
+          "options": [
+            {
+              "key": "apple",
+              "value": "Apple"
+            },
+            {
+              "key": "samsung",
+              "value": "Samsung"
+            },
+            {
+              "key": "vivo",
+              "value": "Vivo"
+            }
+          ]
+        },
+        {
+          "key": "type",
+          "title": "Type",
+          "placeholder": "Select Type",
+          "type": "select",
+          "options": [
+            {
+              "parentKey": "apple",
+              "key": "iphone13",
+              "value": "iPhone 13"
+            },
+            {
+              "parentKey": "apple",
+              "key": "iphone14",
+              "value": "iPhone 14"
+            },
+            {
+              "parentKey": "apple",
+              "key": "iphone14Pro",
+              "value": "iPhone 14 Pro"
+            },
+            {
+              "parentKey": "samsung",
+              "key": "samsungs22pro",
+              "value": "Samsung S22 Pro"
+            },
+            {
+              "parentKey": "samsung",
+              "key": "samsungs22",
+              "value": "Samsung S22"
+            },
+            {
+              "parentKey": "samsung",
+              "key": "samsungs21",
+              "value": "Samsung S21"
+            },
+            {
+              "parentKey": "vivo",
+              "key": "vivoX80",
+              "value": "Vivo X80"
+            },
+            {
+              "parentKey": "vivo",
+              "key": "vivoX80Pro",
+              "value": "Vivo X80 Pro"
+            },
+            {
+              "parentKey": "vivo",
+              "key": "vivoX90",
+              "value": "Vivo X90"
+            }
+          ]
+        },
+        {
+          "key": "condition",
+          "title": "Condition",
+          "placeholder": "Select Condition",
+          "type": "select",
+          "options": [
+            {
+              "key": 0,
+              "parentKey": "iphone13",
+              "data": ["Bad", "Working", "Good", "Excellent"]
+            },
+            {
+              "key": 1,
+              "parentKey": "iphone14",
+              "data": ["Bad", "Working", "Excellent"]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

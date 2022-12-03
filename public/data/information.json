@@ -1,0 +1,287 @@
+{
+  "information": {
+    "productInformation": {
+      "title": "Exchange your old product",
+      "subtitle": "Which phone would you like to exchange?"
+    },
+    "conditioningInformation": {
+      "title": "Select your phone condition",
+      "subtitle": "Your used phone will be rejected if its condition does not match the condition selected from below"
+    },
+    "rejectionInformation": {
+      "title": "Old phone will be rejected if",
+      "information": [
+        "Phone is not in working condition",
+        "IMEI number does not match during pickup",
+        "Screen lock or icloud lock is not disabled.",
+        "Phone has dents, scratches, screen discoloration, dead pixels, cracks on the screen or body"
+      ]
+    },
+    "exchangeTips": {
+      "title": "Exchange tip",
+      "information": [
+        "If old phone is rejected during pickup, you can pay the exchange discount amount at the time of delivery by card or cash and keep the new phone",
+        "Lorem Ipsum"
+      ]
+    }
+  },
+  "data": {
+    "category": "Electronics",
+    "subCategory": "Smart Phone",
+    "currencyData": {
+      "currency": "Indian",
+      "currencyLogo": "₹"
+    },
+    "conditioningCriteria": [
+      {
+        "key": "zero",
+        "title": "No damage",
+        "subtitle": "No scratches, dents, cracks on either body or screen"
+      },
+      {
+        "key": "body",
+        "title": "Only body damage",
+        "subtitle": "Scratches, cracks or dents on body, phone de-shaped"
+      },
+      {
+        "key": "screen",
+        "title": "Screen damage",
+        "subtitle": "Scratches, dents on screen"
+      }
+    ],
+    "exchangeData": {
+      "brands": [
+        {
+          "id": "brand_0",
+          "key": "apple",
+          "name": "Apple"
+        },
+        {
+          "id": "brand_1",
+          "key": "samsung",
+          "name": "Samsung"
+        },
+        {
+          "id": "brand_2",
+          "key": "vivo",
+          "name": "Vivo"
+        },
+        {
+          "id": "brand_3",
+          "key": "xiaomi",
+          "name": "Xiaomi"
+        },
+        {
+          "id": "brand_4",
+          "key": "oneplus",
+          "name": "Oneplus"
+        },
+        {
+          "id": "brand_5",
+          "key": "oppo",
+          "name": "Oppo"
+        }
+      ],
+      "models": [
+        {
+          "id": "model_0",
+          "parentId": "brand_0",
+          "key": "iphone13",
+          "name": "iPhone 13",
+          "conditioningData": {
+            "zero": 6000,
+            "body": 4200,
+            "screen": 2700
+          }
+        },
+        {
+          "id": "model_1",
+          "parentId": "brand_0",
+          "key": "iphone14",
+          "name": "iPhone 14",
+          "conditioningData": {
+            "zero": 6000,
+            "body": 4200,
+            "screen": 2700
+          }
+        },
+        {
+          "id": "model_2",
+          "parentId": "brand_0",
+          "key": "iphone14pro",
+          "name": "iPhone 14 Pro",
+          "conditioningData": {
+            "zero": 6000,
+            "body": 4200,
+            "screen": 2700
+          }
+        },
+        {
+          "id": "model_3",
+          "parentId": "brand_1",
+          "key": "samsungs22",
+          "name": "Samsung S22",
+          "conditioningData": {
+            "zero": 6000,
+            "body": 4200,
+            "screen": 2700
+          }
+        },
+        {
+          "id": "model_4",
+          "parentId": "brand_1",
+          "key": "samsungs22pro",
+          "name": "Samsung S22 Pro",
+          "conditioningData": {
+            "zero": 6000,
+            "body": 4200,
+            "screen": 2700
+          }
+        },
+        {
+          "id": "model_5",
+          "parentId": "brand_1",
+          "key": "samsungm21",
+          "name": "Samsung M21",
+          "conditioningData": {
+            "zero": 6000,
+            "body": 4200,
+            "screen": 2700
+          }
+        },
+        {
+          "id": "model_6",
+          "parentId": "brand_2",
+          "key": "vivox90",
+          "name": "Vivo X90",
+          "conditioningData": {
+            "zero": 6000,
+            "body": 4200,
+            "screen": 2700
+          }
+        },
+        {
+          "id": "model_7",
+          "parentId": "brand_2",
+          "key": "vivox80",
+          "name": "Vivo X80",
+          "conditioningData": {
+            "zero": 6000,
+            "body": 4200,
+            "screen": 2700
+          }
+        },
+        {
+          "id": "model_8",
+          "parentId": "brand_2",
+          "key": "vivox65",
+          "name": "Vivo X65",
+          "conditioningData": {
+            "zero": 6000,
+            "body": 4200,
+            "screen": 2700
+          }
+        },
+        {
+          "id": "model_9",
+          "parentId": "brand_3",
+          "key": "xiaomi12pro+",
+          "name": "Xiaomi 12 Pro+",
+          "conditioningData": {
+            "zero": 6000,
+            "body": 4200,
+            "screen": 2700
+          }
+        },
+        {
+          "id": "model_10",
+          "parentId": "brand_3",
+          "key": "xiaomi12",
+          "name": "Xiaomi 12",
+          "conditioningData": {
+            "zero": 6000,
+            "body": 4200,
+            "screen": 2700
+          }
+        },
+        {
+          "id": "model_11",
+          "parentId": "brand_3",
+          "key": "xiaomi11pro+5g",
+          "name": "Xiaomi 11 Pro+ 5G",
+          "conditioningData": {
+            "zero": 6000,
+            "body": 4200,
+            "screen": 2700
+          }
+        },
+        {
+          "id": "model_12",
+          "parentId": "brand_4",
+          "key": "oneplusnord3",
+          "name": "Oneplus Nord 3",
+          "conditioningData": {
+            "zero": 6000,
+            "body": 4200,
+            "screen": 2700
+          }
+        },
+        {
+          "id": "model_13",
+          "parentId": "brand_4",
+          "key": "oneplusnord2",
+          "name": "Oneplus Nord 2",
+          "conditioningData": {
+            "zero": 6000,
+            "body": 4200,
+            "screen": 2700
+          }
+        },
+        {
+          "id": "model_14",
+          "parentId": "brand_4",
+          "key": "oneplus11tpro",
+          "name": "Oneplus 11T Pro",
+          "conditioningData": {
+            "zero": 6000,
+            "body": 4200,
+            "screen": 2700
+          }
+        },
+        {
+          "id": "model_15",
+          "parentId": "brand_5",
+          "key": "oppof20",
+          "name": "Oppo F20",
+          "conditioningData": {
+            "zero": 6000,
+            "body": 4200,
+            "screen": 2700
+          }
+        },
+        {
+          "id": "model_16",
+          "parentId": "brand_5",
+          "key": "oppof20pro",
+          "name": "Oppo F20 Pro",
+          "conditioningData": {
+            "zero": 6000,
+            "body": 4200,
+            "screen": 2700
+          }
+        },
+        {
+          "id": "model_17",
+          "parentId": "brand_5",
+          "key": "oppof15",
+          "name": "Oppo F15",
+          "conditioningData": {
+            "zero": 6000,
+            "body": 4200,
+            "screen": 2700
+          }
+        }
+      ]
+    }
+  }
+}
