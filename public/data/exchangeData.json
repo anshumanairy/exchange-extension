@@ -1,8 +1,25 @@
 {
   "themeData": {
-    "colors": {},
+    "colors": {
+      "--primary-color": "#000000",
+      "--secondary-color": "#FFFFFF",
+      "--transparent-background-color": "rgba(0, 0, 0, 0.6)"
+    },
     "fontData": {},
-    "selectStyling": {},
+    "selectStyles": {
+      "--select-text-color": "#737377",
+      "--select-background-color": "#F7F7F7",
+      "--select-border-color": "#B8C3D8",
+      "--select-box-shadow-color": "rgba(213, 217, 217, 0.5)"
+    },
+    "buttonStyles": {
+      "--button-primary-text-color": "#FFFFFF",
+      "--button-primary-background-color": "#D23B35",
+      "--button-primary-border-color": "#E2E2E2",
+      "--button-secondary-text-color": "#AAAAAA",
+      "--button-secondary-background-color": "#FFFFFF",
+      "--button-secondary-border-color": "#E2E2E2"
+    },
     "modalStyling": {}
   },
   "exchangeInformation": {
@@ -55,10 +72,11 @@
           ]
         },
         {
-          "key": "type",
-          "title": "Type",
-          "placeholder": "Select Type",
+          "key": "model",
+          "title": "Model",
+          "placeholder": "Select Model",
           "type": "select",
+          "disabled": true,
           "options": [
             {
               "parentKey": "apple",
@@ -112,6 +130,7 @@
           "title": "Condition",
           "placeholder": "Select Condition",
           "type": "select",
+          "disabled": true,
           "options": [
             {
               "key": 0,

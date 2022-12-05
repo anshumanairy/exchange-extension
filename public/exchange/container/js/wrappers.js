@@ -36,7 +36,9 @@ export const RightWrapper = (rightSection) => {
                   <div>
                   ${
                     question.type === "select"
-                      ? `<select key=${question.key}>
+                      ? `<select key=${question.key} id="selectBoxes_${
+                          question.key
+                        }" ${question.disabled ? "disabled" : "!disabled"}>
                           <option selected disabled=true>${
                             question.placeholder || question.value
                           }</option>

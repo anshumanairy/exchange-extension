@@ -7,6 +7,6 @@ async function exchangeFunction(newExchangeData) {
   );
 
   exchangeData = newExchangeData;
-  appendCss();
+  appendCss(exchangeData?.themeData || {});
   appendHTML(appendingDivID, exchangeData);
 }

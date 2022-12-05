@@ -1,11 +1,20 @@
 /* GlobalStyles */
 
 :root {
-  --lightgray: #efefef;
   --blue: steelblue;
-  --white: #fff;
-  --black: rgba(0, 0, 0, 0.8);
-  --transparent-background: rgba(0, 0, 0, 0.6);
+  --primary-color: "#000000";
+  --secondary-color: "#FFFFFF";
+  --transparent-background-color: rgba(0, 0, 0, 0.6);
+  --select-text-color: "#737377";
+  --select-background-color: "#F7F7F7";
+  --select-border-color: "#B8C3D8";
+  --select-box-shadow-color: rgba(213, 217, 217, 0.5);
+  --button-primary-text-color: "#FFFFFF";
+  --button-primary-background-color: "#D23B35";
+  --button-primary-border-color: "#E2E2E2";
+  --button-secondary-text-color: "#AAAAAA";
+  --button-secondary-background-color: "#FFFFFF";
+  --button-secondary-border-color: "#E2E2E2";
 }
 
 a,
@@ -245,7 +254,7 @@ button {
 .open-modal {
   font-weight: bold;
   background: var(--blue);
-  color: var(--white);
+  color: var(--secondary-color);
   padding: 0.75rem 1.75rem;
   margin-bottom: 1rem;
   border-radius: 5px;
@@ -260,7 +269,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--transparent-background);
+  background: var(--transparent-background-color);
   cursor: pointer;
   visibility: hidden;
   opacity: 0;
@@ -357,34 +366,34 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  box-shadow: 0 2px 5px 0 rgba(213, 217, 217, 0.5);
+  box-shadow: 0 2px 5px 0 var(--select-box-shadow-color);
 
   padding: 8px 16px;
   gap: 236px;
   width: 340px;
   height: 36px;
-  background: #f7f7f7;
-  border: 1px solid #b8c3d8;
+  background: var(--select-background-color);
+  border: 1px solid var(--select-border-color);
   border-radius: 4px;
-  color: #737377;
+  color: var(--select-text-color);
 }
 
 .basicButton {
   gap: 10px;
   width: 153px;
   height: 31px;
-  background: #ffffff;
-  border: 1px solid #e2e2e2;
+  background: var(--button-secondary-background-color);
+  border: 1px solid var(--button-primary-border-color);
   border-radius: 4px;
 }
 
 .secondaryButton {
-  color: #aaaaaa;
+  color: var(--button-secondary-text-color);
 }
 
 .primaryButton {
-  color: #ffffff;
-  background: #d23b35;
+  color: var(--button-secondary-background-color);
+  background: var(--button-primary-background-color);
 }
 
 .bottomButtons {
