@@ -15,6 +15,12 @@
   --button-secondary-text-color: "#AAAAAA";
   --button-secondary-background-color: "#FFFFFF";
   --button-secondary-border-color: "#E2E2E2";
+  --exchange-button-color: "#FFFFFF";
+  --exchange-button-background: "#3535F3";
+  --exchange-button-border: "none";
+  --exchange-button-border-radius: "1000px";
+  --exchange-button-height: "276px";
+  --exchange-button-width: "56px";
 }
 
 a,
@@ -247,10 +253,6 @@ button {
   font-size: inherit;
 }
 
-.btn-group {
-  text-align: center;
-}
-
 .open-modal {
   font-weight: bold;
   background: var(--blue);
@@ -258,6 +260,15 @@ button {
   padding: 0.75rem 1.75rem;
   margin-bottom: 1rem;
   border-radius: 5px;
+}
+
+.exchange-button {
+  height: var(--exchange-button-height);
+  width: var(--exchange-button-width);
+  color: var(--exchange-button-color);
+  background: var(--exchange-button-background);
+  border: var(--exchange-button-border);
+  border-radius: var(--exchange-button-border-radius);
 }
 
 .modal {
@@ -398,4 +409,43 @@ select {
 
 .bottomButtons {
   margin-bottom: 1rem;
+}
+
+/* Breakpoints for Media Queries
+--mobileXS: "480px";
+--mobile: "768px";
+--tablet: "1024px";
+--laptop: "1200px";
+--desktop: "1440px";
+*/
+
+@media screen and (max-width: 768px) {
+  .modal-content {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-bottom: 100px;
+  }
+  .modal-dialog {
+    position: absolute;
+    bottom: 0px;
+    max-height: 75vh;
+    width: 100vw;
+    border-radius: 16px 16px 0px 0px;
+    overflow-x: clip;
+  }
+  .left-wrapper {
+    height: auto;
+  }
+  .bottom-sticky-buttons {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    box-shadow: 0px -4px 16px rgba(0, 0, 0, 0.25);
+  }
+  .basicButton {
+    width: 50vw;
+    height: 46px;
+    border-radius: 0px;
+    border: none;
+  }
 }

@@ -14,11 +14,17 @@
     },
     "buttonStyles": {
       "--button-primary-text-color": "#FFFFFF",
-      "--button-primary-background-color": "#D23B35",
+      "--button-primary-background-color": "#3535F3",
       "--button-primary-border-color": "#E2E2E2",
       "--button-secondary-text-color": "#AAAAAA",
       "--button-secondary-background-color": "#FFFFFF",
-      "--button-secondary-border-color": "#E2E2E2"
+      "--button-secondary-border-color": "#E2E2E2",
+      "--exchange-button-color": "#FFFFFF",
+      "--exchange-button-background": "#3535F3",
+      "--exchange-button-border": "none",
+      "--exchange-button-border-radius": "1000px",
+      "--exchange-button-height": "56px",
+      "--exchange-button-width": "276px"
     },
     "modalStyling": {}
   },

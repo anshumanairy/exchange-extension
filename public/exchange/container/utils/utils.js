@@ -31,6 +31,10 @@ export const appendHTML = (appendingDivID) => {
       appendingElement.innerHTML = htmlTextResponse;
     })
     .then(() => {
+      /* Remove Later - Only for development
+      document.body.style.overflow = "hidden";
+      populateInformation(exchangeData);
+      Remove Later */
       handleModal(exchangeData);
     });
 };
@@ -43,6 +47,7 @@ const handleModal = (exchangeData) => {
     el.addEventListener("click", function () {
       const modalId = this.dataset.open;
       document.getElementById(modalId).classList.add(isVisible);
+      document.body.style.overflow = "hidden";
       populateInformation(exchangeData);
     });
   }
@@ -52,6 +57,7 @@ const handleModal = (exchangeData) => {
       this.parentElement.parentElement.parentElement.classList.remove(
         isVisible
       );
+      document.body.style.overflow = "auto";
     });
   }
 

@@ -1,4 +1,5 @@
 import { Button } from "/exchange/components/button/index.js";
+import { isMobile } from "/exchange/container/utils/helpers.js";
 
 export const LeftWrapper = (leftSection) => {
   return `
@@ -58,7 +59,9 @@ export const RightWrapper = (rightSection) => {
             .join("")}
           </div>
         </div>
-        <div class="bottomButtons dF jcSB">
+        <div class="${
+          isMobile() ? "bottom-sticky-buttons" : "bottomButtons"
+        } dF jcSB">
           <div id="closeModal" data-close>
             ${Button({
               label: "Cancel",
